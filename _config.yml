@@ -17,7 +17,7 @@ minimal: true             # use a dark header
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "index.html"}
-  - {file: "Mark Nicholas_CV_2022.pdf", title: "CV", icon: home}
+  - {file: "Mark Nicholas_CV_2022.pdf", title: "CV"}
   - {title: "Yttri Lab", url: "https://labs.bio.cmu.edu/yttri/"}
   - {title: "Publications", url: "https://scholar.google.com/citations?user=lFNwx6oAAAAJ&hl=en"}
   
