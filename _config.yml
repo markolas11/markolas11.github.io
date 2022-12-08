@@ -32,3 +32,5 @@ comments:
 
 plugins:
  - jekyll-feed
+
+google_analytics: <"https://markolas11.github.io/"> 
