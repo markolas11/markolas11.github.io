@@ -35,4 +35,5 @@ plugins:
 
 
 
-google_analytics: <G-XXGFMSLNSC>
+# Google Analytics
+google_analytics: G-XXGFMSLNSC
