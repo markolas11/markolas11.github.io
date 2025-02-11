@@ -46,6 +46,18 @@
   {% include menu.html menu=site.external %}
 </footer>
 {% endif %}
+
+{% for link in site.external %}
+  <a href="{{ link.url }}" title="{{ link.title }}" target="_blank" rel="noopener noreferrer">
+    {% if link.icon contains '.svg' %}
+      <img src="{{ link.icon }}" alt="{{ link.title }} icon" width="20" height="20">
+    {% else %}
+      <i class="fa fa-{{ link.icon }}"></i>
+    {% endif %}
+  </a>
+{% endfor %}
+
+  
 <head>
   {% if site.google_analytics and jekyll.environment == 'production' %}
   {% include analytics.html %}
