@@ -19,7 +19,7 @@
     <a aria-label="{{ title }}" href="{{ url | relative_url }}" {% if url == page.url %}class="selected"{% endif %}>
     {% if icon == "Bluesky" %}
       <svg aria-hidden="true" class="icon" width="20" height="20" fill="currentColor">
-        <use xlink:href="{{ "/assets/square-bluesky-brands-solid.svg" | relative_url }}"></use>
+        <use xlink:href="{{ "square-bluesky-brands-solid.svg" | relative_url }}"></use>
       </svg>
     {% else %}
       <svg aria-hidden="true" class="icon">
