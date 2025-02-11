@@ -27,7 +27,7 @@ external:                  # shows a footer with social links - for available ic
   - {title: Mail, icon: envelope, url: "mailto:mnichola@andrew.cmu.edu"}
   - {title: Github, icon: github, url: "https://github.com/markolas11"}
   - {title: Twitter, icon: twitter, url: "https://twitter.com/markolas11"}
-  - {title: Bluesky, icon: bluesky, url: "https://bsky.app/profile/markolas.bsky.social"}
+  - {title: Bluesky, icon: fa-bluesky, url: "https://bsky.app/profile/markolas.bsky.social"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
