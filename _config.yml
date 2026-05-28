@@ -21,7 +21,10 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   # - {file: "index.html"}
   - {title: "Publications", url: "https://scholar.google.com/citations?user=lFNwx6oAAAAJ&hl=en"}
   - {url: "Mark Nicholas_CV_2026.pdf", title: "CV"}
+  - {url: "Mark Nicholas_CV_2026.pdf", title: "CV"}
+  - {title: "Voigts Lab", url: "https://www.voigtslab.org/"}
   - {title: "Yttri Lab", url: "https://labs.bio.cmu.edu/yttri/"} 
+  
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:nicholasm@hhmi.org"}
